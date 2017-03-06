@@ -1,7 +1,5 @@
 package main;
 
-import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
@@ -25,6 +23,7 @@ import javax.swing.UnsupportedLookAndFeelException;
 
 import components.AutoChooser;
 import components.CameraStream;
+import components.Compass;
 import components.Debugger;
 import components.Dialogs;
 import components.Footer;
@@ -69,7 +68,7 @@ public class CopernicusDashboard {
 		footer.setHeight((window_y / 15));
 		footer.invalidateFooter();
 		
-		debug.setSize(window_x, (window_x / 10), window_y);
+		debug.setSize(window_x, (window_x / 9), window_y);
 		debug.invalidateDebugger();
 		
 		int button_height = window_y / 15;
@@ -161,7 +160,7 @@ public class CopernicusDashboard {
 		auto_chooser.setAutoConfigs(auto_config);
 		
 		//Create the dashboard debugging window
-		debug = new Debugger();
+		debug = new Debugger(stream_config);
 		
 		show_hide = new JButton("Show");
 		show_hide.addActionListener(new ActionListener() {
@@ -252,6 +251,7 @@ public class CopernicusDashboard {
 			}
 		});
 		
+		//frame.add(new Compass());
 		frame.add(show_hide);
 		frame.add(debug);
 		frame.add(footer);

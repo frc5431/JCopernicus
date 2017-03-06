@@ -4,7 +4,7 @@
 		"aspect_ratio": false,
 		"connected_image": "connected",
 		"disconnected_image": "disconnected",
-		"robot_ip": "roborio-5431-frc.local",
+		"robot_ip": "localhost",
 		"table_name": "copernicus"
 	},
 	
