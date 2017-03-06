@@ -52,7 +52,7 @@ public class AutoChooser extends JComboBox<Object> {
 			} else if(current_auto.contains("red")) {
 				colors[ind] = Color.decode("#B71C1C");
 			} else {
-				colors[ind] = Color.decode("0x004D40");
+				colors[ind] = Color.decode("#004D40");
 			}
 		}
 		
