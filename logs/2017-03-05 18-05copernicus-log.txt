@@ -1,0 +1,15 @@
+[2017/03/05 18:05:49:310]|COPERNICUS|: Loading config from config.json
+[2017/03/05 18:05:49:318]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 18:05:50:263]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 18:05:50:633]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 18:05:50:701]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 18:05:50:701]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:05:50:712]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 18:05:50:767]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 18:05:50:897]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 18:05:51:117]|COPERNICUS|: Dashboard resized 1920x750
+[2017/03/05 18:05:51:226]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:05:51:246]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:05:51:771]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 18:05:51:771]|COPERNICUS|: Camera stream connected!
+[2017/03/05 18:05:51:772]|COPERNICUS|: Starting the Mjpeg frame loop

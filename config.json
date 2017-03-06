@@ -1,0 +1,38 @@
+{
+	"streams": {
+		"camera_url": "http://195.67.26.73/mjpg/video.mjpg",
+		"aspect_ratio": false,
+		"connected_image": "connected",
+		"disconnected_image": "disconnected",
+		"robot_ip": "roborio-5431-frc.local",
+		"table_name": "copernicus"
+	},
+	
+	"autons": {
+		"blue": [
+			{"name": "BlueLeft"},
+			{"name": "BlueCenter"},
+			{"name": "BlueRight"}
+		],
+		"red": [
+			{"name": "RedLeft"},
+			{"name": "RedCenter"},
+			{"name": "RedRight"}
+		],
+		"both": [
+			{"name": "StandStill"},
+			{"name": "GoForward"}
+		],
+		"default": "StandStill"
+	},
+	
+	"window": {
+		"width": 1920,
+		"height": 750,
+		"x_location": 0,
+		"y_location": 0,
+		"icon_name": "logo",
+		"resizable": true,
+		"refresh_millis": 80
+	}
+}

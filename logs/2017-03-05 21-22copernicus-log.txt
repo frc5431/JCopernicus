@@ -1,0 +1,29 @@
+[2017/03/05 21:22:22:464]|COPERNICUS|: Loading config from config.json
+[2017/03/05 21:22:22:471]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 21:22:22:701]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 21:22:22:711]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 21:22:22:726]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 21:22:22:726]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 21:22:22:727]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 21:22:22:761]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 21:22:22:777]|COPERNICUS|: Created the auto chooser
+[2017/03/05 21:22:22:782]|COPERNICUS|: Created the debugger window
+[2017/03/05 21:22:22:986]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/05 21:22:23:108]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:22:23:108]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:22:23:121]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:22:23:123]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:22:23:844]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 21:22:23:844]|COPERNICUS|: Camera stream connected!
+[2017/03/05 21:22:23:844]|COPERNICUS|: Starting the Mjpeg frame loop
+[2017/03/05 21:22:24:836]|COPERNICUS|: Dashboard resized 1440x779
+[2017/03/05 21:22:24:871]|COPERNICUS|: Dashboard resized 1920x995
+[2017/03/05 21:22:26:156]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:27:068]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:28:964]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:29:636]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:29:948]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:30:140]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:30:388]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:30:572]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:22:56:939]|COPERNICUS|: Dashboard resized 1438x750

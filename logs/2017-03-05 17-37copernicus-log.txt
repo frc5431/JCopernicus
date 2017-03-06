@@ -1,0 +1,29 @@
+[2017/03/05 17:37:07:362]|COPERNICUS|: Loading config from config.json
+[2017/03/05 17:37:07:367]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 17:37:07:577]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 17:37:07:587]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 17:37:07:599]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 17:37:07:599]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 17:37:07:600]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 17:37:07:624]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 17:37:07:645]|COPERNICUS|: Created the dashboard footer
+START
+StandStillnullnullnullnullnullnullnull
+END
+START
+StandStillGoForwardnullnullnullnullnullnull
+END
+START
+StandStillGoForwardRedCenternullnullnullnullnull
+END
+START
+StandStillGoForwardRedCenterRedRightnullnullnullnull
+END
+Exception in thread "main" java.lang.IndexOutOfBoundsException: Index: 3, Size: 3
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at components.AutoChooser.setAutoConfigs(AutoChooser.java:58)
+	at main.CopernicusDashboard.main(CopernicusDashboard.java:145)
+[2017/03/05 17:37:08:217]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 17:37:08:218]|COPERNICUS|: Camera stream connected!
+[2017/03/05 17:37:08:218]|COPERNICUS|: Starting the Mjpeg frame loop

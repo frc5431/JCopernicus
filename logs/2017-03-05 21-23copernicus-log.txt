@@ -1,0 +1,144 @@
+[2017/03/05 21:23:07:401]|COPERNICUS|: Loading config from config.json
+[2017/03/05 21:23:07:406]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 21:23:08:344]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 21:23:08:373]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 21:23:08:395]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 21:23:08:395]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 21:23:08:407]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 21:23:08:465]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 21:23:08:583]|COPERNICUS|: Created the auto chooser
+[2017/03/05 21:23:08:587]|COPERNICUS|: Created the debugger window
+[2017/03/05 21:23:08:783]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/05 21:23:08:805]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:23:08:805]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:23:08:916]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:23:08:918]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:23:09:719]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 21:23:09:719]|COPERNICUS|: Camera stream connected!
+[2017/03/05 21:23:09:719]|COPERNICUS|: Starting the Mjpeg frame loop
+[2017/03/05 21:23:10:973]|COPERNICUS|: Dashboard resized 1440x779
+[2017/03/05 21:23:11:004]|COPERNICUS|: Dashboard resized 1920x995
+[2017/03/05 21:23:12:212]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:14:412]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:15:132]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:15:636]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:16:188]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:16:644]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:17:060]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:17:596]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:17:996]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:18:500]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:18:900]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:19:340]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:19:732]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:20:180]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:20:588]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:21:244]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:21:588]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:22:100]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:22:500]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:22:956]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:23:364]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:23:780]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:27:604]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:28:468]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:28:908]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:29:404]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:29:732]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:31:092]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:31:580]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:32:125]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:32:556]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:32:924]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:33:157]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:33:340]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:33:516]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:33:700]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:33:868]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:044]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:212]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:396]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:588]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:756]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:34:956]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:35:148]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:35:348]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:35:516]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:35:716]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:35:932]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:36:116]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:36:300]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:36:508]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:36:700]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:36:900]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:37:084]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:37:284]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:37:492]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:37:740]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:37:940]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:38:172]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:38:373]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:38:588]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:38:780]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:38:964]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:39:156]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:39:340]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:39:532]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:39:708]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:39:884]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:044]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:220]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:404]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:572]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:740]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:40:924]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:41:108]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:41:284]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:41:476]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:41:678]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:41:868]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:044]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:212]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:404]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:588]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:740]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:42:916]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:43:108]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:43:292]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:43:500]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:43:708]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:43:924]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:44:116]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:44:308]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:44:548]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:44:732]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:44:916]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:45:116]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:45:284]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:45:500]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:45:724]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:45:900]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:46:116]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:46:308]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:46:484]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:46:668]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:46:860]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:23:56:055]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 21:23:59:068]|COPERNICUS|: Dashboard resized 1440x779
+[2017/03/05 21:23:59:081]|COPERNICUS|: Dashboard resized 1920x995
+[2017/03/05 21:24:14:662]|COPERNICUS|: Selected a new autonomous GoForward
+[2017/03/05 21:24:16:180]|COPERNICUS|: Selected a new autonomous BlueRight
+[2017/03/05 21:24:17:932]|COPERNICUS|: Selected a new autonomous BlueLeft
+[2017/03/05 21:24:19:772]|COPERNICUS|: Selected a new autonomous BlueCenter
+[2017/03/05 21:24:24:212]|COPERNICUS|: Selected a new autonomous BlueRight
+[2017/03/05 21:24:42:212]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:42:596]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:42:796]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:42:988]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:43:196]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:43:460]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:43:676]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:43:948]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:44:116]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:44:556]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/05 21:24:44:996]|COPERNICUS|: Show/Hide button was pressed

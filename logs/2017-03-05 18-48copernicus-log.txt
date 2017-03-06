@@ -1,0 +1,81 @@
+[2017/03/05 18:48:02:791]|COPERNICUS|: Loading config from config.json
+[2017/03/05 18:48:02:796]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 18:48:03:058]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 18:48:03:068]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 18:48:03:081]|COPERNICUS|: Starting mjpeg client http://localhost:8080/video.mjpg
+[2017/03/05 18:48:03:081]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:03:083]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 18:48:03:110]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:03:153]|COPERNICUS|: Created the auto chooser
+[2017/03/05 18:48:03:406]|COPERNICUS|: Found the Mjpeg Boundary --jpgboundary
+[2017/03/05 18:48:03:406]|COPERNICUS|: Camera stream connected!
+[2017/03/05 18:48:03:407]|COPERNICUS|: Starting the Mjpeg frame loop
+[2017/03/05 18:48:03:428]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/05 18:48:03:428]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:48:03:480]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:48:35:599]|COPERNICUS|: (ERROR) -> Failed reading frame from mjpeg
+[2017/03/05 18:48:35:599]|COPERNICUS|: Probably recieved empty frame from Mjpeg http://localhost:8080/video.mjpg
+[2017/03/05 18:48:35:599]|COPERNICUS|: Closing the Mjpeg stream http://localhost:8080/video.mjpg
+[2017/03/05 18:48:35:599]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:35:599]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:35:599]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:35:604]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:35:904]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:35:905]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:35:907]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:207]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:36:208]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:210]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:510]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:36:510]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:513]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:813]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:36:813]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:36:816]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:116]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:37:117]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:123]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:424]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:37:424]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:429]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:730]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:37:730]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:37:736]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:036]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:38:037]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:039]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:339]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:38:339]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:341]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:641]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:38:642]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:643]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:944]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:38:944]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:38:947]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:248]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:39:248]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:250]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:550]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:39:551]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:554]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:854]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:39:854]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:39:857]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:157]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:40:157]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:159]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:460]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:40:460]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:462]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:762]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:40:762]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:40:764]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:41:064]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:41:065]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:41:066]|COPERNICUS|: (ERROR) -> Failed connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:41:367]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:48:41:367]|COPERNICUS|: Connecting to http://localhost:8080/video.mjpg
+[2017/03/05 18:48:41:370]|COPERNICUS|: Found the Mjpeg Boundary --jpgboundary
+[2017/03/05 18:48:41:370]|COPERNICUS|: Camera stream connected!
+[2017/03/05 18:48:41:370]|COPERNICUS|: Starting the Mjpeg frame loop

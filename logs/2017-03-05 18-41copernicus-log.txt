@@ -1,0 +1,21 @@
+[2017/03/05 18:41:29:379]|COPERNICUS|: Loading config from config.json
+[2017/03/05 18:41:29:386]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 18:41:29:668]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 18:41:29:690]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 18:41:29:705]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 18:41:29:706]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 18:41:29:707]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 18:41:29:734]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 18:41:29:767]|COPERNICUS|: Created the auto chooser
+[2017/03/05 18:41:29:945]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/05 18:41:30:049]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:41:30:064]|COPERNICUS|: Dashboard resized 1438x750
+[2017/03/05 18:41:30:815]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 18:41:30:815]|COPERNICUS|: Camera stream connected!
+[2017/03/05 18:41:30:815]|COPERNICUS|: Starting the Mjpeg frame loop
+[2017/03/05 18:41:35:699]|COPERNICUS|: Selected a new autonomous RedRight
+[2017/03/05 18:41:38:843]|COPERNICUS|: Selected a new autonomous BlueCenter
+[2017/03/05 18:41:41:083]|COPERNICUS|: Selected a new autonomous RedCenter
+[2017/03/05 18:41:43:363]|COPERNICUS|: Selected a new autonomous GoForward
+[2017/03/05 18:41:46:155]|COPERNICUS|: Selected a new autonomous BlueRight
+[2017/03/05 18:41:48:363]|COPERNICUS|: Selected a new autonomous BlueCenter

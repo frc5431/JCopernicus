@@ -1,0 +1,15 @@
+[2017/03/05 17:23:15:359]|COPERNICUS|: Loading config from config.json
+[2017/03/05 17:23:15:367]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/05 17:23:15:879]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+[2017/03/05 17:23:15:892]|COPERNICUS|: Started the Network Table client!
+[2017/03/05 17:23:15:912]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 17:23:15:913]|COPERNICUS|: Camera stream disconnected!
+[2017/03/05 17:23:15:918]|COPERNICUS|: Created the dashboard footer
+[2017/03/05 17:23:15:958]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/05 17:23:16:053]|COPERNICUS|: Created the dashboard footer
+Exception in thread "main" java.lang.ClassCastException: [Ljava.lang.Object; cannot be cast to [Ljava.lang.String;
+	at components.AutoChooser.setAutoConfigs(AutoChooser.java:46)
+	at main.CopernicusDashboard.main(CopernicusDashboard.java:145)
+[2017/03/05 17:23:16:716]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/05 17:23:16:716]|COPERNICUS|: Camera stream connected!
+[2017/03/05 17:23:16:716]|COPERNICUS|: Starting the Mjpeg frame loop
