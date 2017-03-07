@@ -9,10 +9,22 @@ import streaming.JCopernicus;
 
 public class ResponseHandler implements ITableListener {
 	
+	private static final String
+		connection_tag = "connection",
+		gear_in_tag = "gearIn";
+	
 	public ResponseHandler() {
 		JCopernicus.table.addTableListener(this);
 		
 		Logger.Log("Created the response handler");
+	}
+	
+	public void loadDefaults() {
+		boolean connectionState = JCopernicus.getBoolean(connection_tag, false);
+		boolean gearState = JCopernicus.getBoolean(gear_in_tag, false);
+	
+		ConnectionHandler(connectionState);
+		GearHandler(gearState);
 	}
 	
 	private void GearHandler(boolean state) {
@@ -32,11 +44,11 @@ public class ResponseHandler implements ITableListener {
 	@Override
 	public void valueChanged(ITable itable, String key, Object value, boolean newvalue) {
 		switch(key) {
-		case "gearIn":
-			GearHandler((boolean) value);
-			break;
-		case "connection":
+		case connection_tag:
 			ConnectionHandler((boolean) value);
+			break;
+		case gear_in_tag:
+			GearHandler((boolean) value);
 			break;
 		}
 	}

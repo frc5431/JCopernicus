@@ -185,6 +185,7 @@ public class CopernicusDashboard {
 		
 		//Create the dashboard response handler
 		response_handler = new ResponseHandler();
+		response_handler.loadDefaults();
 		
 		show_hide = new JButton("Show");
 		show_hide.addActionListener(new ActionListener() {
