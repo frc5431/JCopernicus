@@ -38,6 +38,10 @@ public class Configs {
 		return loaded_config.getJSONObject("streams");
 	}
 	
+	public static JSONObject getDashboardConfig() {
+		return loaded_config.getJSONObject("dashboard");
+	}
+	
 	public static JSONObject getAutoConfig() {
 		return loaded_config.getJSONObject("autons");
 	}
@@ -78,7 +82,18 @@ public class Configs {
 		stream_config.aspect_ratio = getBoolean(json_config, "aspect_ratio", true);
 		stream_config.connected_image = Resources.getBufferedResource(getString(json_config, "connected_image", "connected"));
 		stream_config.disconnected_image = Resources.getBufferedResource(getString(json_config, "disconnected_image", "disconnected"));
+		stream_config.gear_image = Resources.getBufferedResource(getString(json_config, "gear_image", "gear"));
 		return stream_config;
+	}
+	
+	public static DashboardConfig.Leds loadDashboardLedConfig() {
+		JSONObject json_config = getDashboardConfig().getJSONObject("leds");
+		
+		DashboardConfig.Leds led_config = new DashboardConfig.Leds();
+		led_config.serial_port = getString(json_config, "serial_port", "COM4");
+		led_config.serial_baud = getInt(json_config, "serial_baud", 9600);
+		
+		return led_config;
 	}
 	
 	public static AutoConfig loadAutoConfig() {

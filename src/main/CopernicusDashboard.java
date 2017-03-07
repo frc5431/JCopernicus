@@ -27,14 +27,17 @@ import components.Compass;
 import components.Debugger;
 import components.Dialogs;
 import components.Footer;
+import components.Gear;
 import config.AutoConfig;
 import config.Configs;
+import config.DashboardConfig;
 import config.Logger;
 import config.Resources;
 import config.StreamConfig;
 import config.WindowConfig;
 import streaming.JCopernicus;
 import streaming.MjpegClient;
+import streaming.SerialHandler;
 
 public class CopernicusDashboard {
 	
@@ -49,12 +52,15 @@ public class CopernicusDashboard {
 	
 	private static JFrame frame;
 	private static JPanel camera_stream;
-	private static Footer footer;
 	private static Debugger debug;
 	private static JButton show_hide;
+	private static ResponseHandler response_handler;
 	
 	public static AutoConfig auto_config;
 	public static AutoChooser auto_chooser;
+	public static SerialHandler serial_handler;
+	public static Footer footer;
+	public static Gear gear;
 	
 	private static final int view_offset = 45;
 	
@@ -72,6 +78,11 @@ public class CopernicusDashboard {
 		
 		debug.setSize(window_x, (window_x / 9), window_y - view_offset);
 		debug.invalidateDebugger();
+		
+		int gear_dimensions = window_y / 7;
+		
+		gear.setBounds(window_x - gear_dimensions, ((window_y - (window_y / 15)) - gear_dimensions) - view_offset, gear_dimensions, gear_dimensions);
+		gear.setSize(gear_dimensions, gear_dimensions);
 		
 		int button_height = window_y / 15;
 		
@@ -139,6 +150,7 @@ public class CopernicusDashboard {
 		//Load the JSON config file into the configuration objects
 		WindowConfig window_config = Configs.loadWindowConfig();
 		StreamConfig stream_config = Configs.loadStreamConfig();
+		DashboardConfig.Leds leds_config = Configs.loadDashboardLedConfig();
 		
 		auto_config = Configs.loadAutoConfig();
 		
@@ -161,8 +173,18 @@ public class CopernicusDashboard {
 		auto_chooser = new AutoChooser();
 		auto_chooser.setAutoConfigs(auto_config);
 		
+		//Create the serial handler
+		serial_handler = new SerialHandler(leds_config.serial_port, leds_config.serial_baud);
+		
+		//Create the gear icon
+		gear = new Gear(stream_config);
+		gear.setGearState(false);
+		
 		//Create the dashboard debugging window
 		debug = new Debugger(stream_config);
+		
+		//Create the dashboard response handler
+		response_handler = new ResponseHandler();
 		
 		show_hide = new JButton("Show");
 		show_hide.addActionListener(new ActionListener() {
@@ -256,6 +278,7 @@ public class CopernicusDashboard {
 		//frame.add(new Compass());
 		frame.add(show_hide);
 		frame.add(debug);
+		frame.add(gear);
 		frame.add(footer);
 		frame.add(auto_chooser);
 		frame.add(camera_stream);

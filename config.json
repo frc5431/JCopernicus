@@ -5,7 +5,15 @@
 		"connected_image": "connected",
 		"disconnected_image": "disconnected",
 		"robot_ip": "roborio-5431-frc.local",
-		"table_name": "copernicus"
+		"table_name": "copernicus",
+		"gear_image": "gear"
+	},
+	
+	"dashboard": {
+		"leds": {
+			"serial_port": "/dev/ttyACM0",
+			"serial_baud": 9600
+		}
 	},
 	
 	"autons": {
