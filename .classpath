@@ -11,11 +11,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/NetworkTables-sources.jar"/>
-	<classpathentry kind="lib" path="lib/NetworkTables.jar">
-		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="JCopernicus/lib"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="lib/ntcore-windows.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

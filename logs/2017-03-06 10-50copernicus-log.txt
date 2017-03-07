@@ -1,0 +1,20 @@
+[2017/03/06 10:50:19:146]|COPERNICUS|: Loading config from config.json
+[2017/03/06 10:50:19:153]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/06 10:50:19:192]|COPERNICUS|: Attempting to start a NetworkTable client at ip localhost
+platform: /Windows/amd64/
+[2017/03/06 10:50:19:354]|COPERNICUS|: Started the Network Table client!
+[2017/03/06 10:50:19:373]|COPERNICUS|: Starting mjpeg client http://195.67.26.73/mjpg/video.mjpg
+[2017/03/06 10:50:19:373]|COPERNICUS|: Camera stream disconnected!
+[2017/03/06 10:50:19:375]|COPERNICUS|: Created the dashboard footer
+[2017/03/06 10:50:19:424]|COPERNICUS|: Connecting to http://195.67.26.73/mjpg/video.mjpg
+[2017/03/06 10:50:19:454]|COPERNICUS|: Created the auto chooser
+[2017/03/06 10:50:19:460]|COPERNICUS|: Created the debugger window
+[2017/03/06 10:50:19:565]|COPERNICUS|: Dashboard resized 2880x1369
+[2017/03/06 10:50:19:567]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/06 10:50:19:649]|COPERNICUS|: Dashboard resized 2880x1369
+[2017/03/06 10:50:19:651]|COPERNICUS|: Dashboard resized 2880x1369
+[2017/03/06 10:50:23:943]|COPERNICUS|: Found the Mjpeg Boundary --myboundary
+[2017/03/06 10:50:23:944]|COPERNICUS|: Camera stream connected!
+[2017/03/06 10:50:23:944]|COPERNICUS|: Starting the Mjpeg frame loop
+[2017/03/06 10:50:29:514]|COPERNICUS|: Show/Hide button was pressed
+[2017/03/06 10:50:30:605]|COPERNICUS|: Show/Hide button was pressed

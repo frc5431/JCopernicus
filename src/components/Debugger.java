@@ -21,7 +21,7 @@ import config.StreamConfig;
 import edu.wpi.first.wpilibj.networktables.NetworkTablesJNI;
 import edu.wpi.first.wpilibj.tables.ITable;
 
-public class Debugger extends JScrollPane {
+public class Debugger extends JPanel {
 	
 	private static final long serialVersionUID = 1L;
 
@@ -50,10 +50,10 @@ public class Debugger extends JScrollPane {
 		//this.table_debug.setCellRenderer(cell_renderer);
 		
 		this.add(this.table_debug);
-		this.add(new JLabel("TEST"));
+		//this.add(new JLabel("TEST"));
 		
-		this.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
-		this.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		//this.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+		//this.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 		this.setVisible(false);
 		
 		NetworkTablesJNI.addEntryListener("/" + stream_config.table_name, new NetworkTablesJNI.EntryListenerFunction() {

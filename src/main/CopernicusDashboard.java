@@ -56,24 +56,26 @@ public class CopernicusDashboard {
 	public static AutoConfig auto_config;
 	public static AutoChooser auto_chooser;
 	
+	private static final int view_offset = 45;
+	
 	/*
 	 * Called whenever the window is initialized or resized
 	 */
 	public static void organizeWindow() {
 		window_x = frame.getWidth();
 		window_y = frame.getHeight();
-		camera_stream.setSize(window_x, window_y);
+		camera_stream.setSize(window_x, window_y - view_offset);
 		
-		footer.setParentSize(window_x, window_y);
+		footer.setParentSize(window_x, window_y - view_offset);
 		footer.setHeight((window_y / 15));
 		footer.invalidateFooter();
 		
-		debug.setSize(window_x, (window_x / 9), window_y);
+		debug.setSize(window_x, (window_x / 9), window_y - view_offset);
 		debug.invalidateDebugger();
 		
 		int button_height = window_y / 15;
 		
-		show_hide.setBounds(window_x - (window_x / 10), (window_y - button_height), (window_x / 10), button_height);
+		show_hide.setBounds(window_x - (window_x / 10), (window_y - button_height) - view_offset, (window_x / 10), button_height);
 		
 		auto_chooser.setPosition((window_x / 6), 25, (window_y / 2) + (window_y / 4));
 		auto_chooser.invalidateAutoChooser();

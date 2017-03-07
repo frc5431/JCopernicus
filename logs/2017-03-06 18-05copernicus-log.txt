@@ -1,0 +1,16 @@
+[2017/03/06 18:05:50:553]|COPERNICUS|: Loading config from config.json
+[2017/03/06 18:05:50:569]|COPERNICUS|: Finished loading dashboard configurations!
+[2017/03/06 18:05:50:647]|COPERNICUS|: Attempting to start a NetworkTable client at ip roborio-5431-frc.local
+platform: /Windows/amd64/
+[2017/03/06 18:05:50:865]|COPERNICUS|: Started the Network Table client!
+[2017/03/06 18:05:50:912]|COPERNICUS|: Created the dashboard footer
+[2017/03/06 18:05:50:912]|COPERNICUS|: Starting mjpeg client http://roborio-5431-frc:1181/stream.mjpg
+[2017/03/06 18:05:50:912]|COPERNICUS|: Camera stream disconnected!
+[2017/03/06 18:05:51:037]|COPERNICUS|: Connecting to http://roborio-5431-frc:1181/stream.mjpg
+[2017/03/06 18:05:51:116]|COPERNICUS|: Created the auto chooser
+[2017/03/06 18:05:51:116]|COPERNICUS|: Created the debugger window
+[2017/03/06 18:05:51:303]|COPERNICUS|: Dashboard resized 1920x1080
+[2017/03/06 18:05:51:303]|COPERNICUS|: Selected a new autonomous StandStill
+[2017/03/06 18:05:51:584]|COPERNICUS|: Found the Mjpeg Boundary boundarydonotcross
+[2017/03/06 18:05:51:584]|COPERNICUS|: Camera stream connected!
+[2017/03/06 18:05:51:584]|COPERNICUS|: Starting the Mjpeg frame loop

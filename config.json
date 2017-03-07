@@ -1,10 +1,10 @@
 {
 	"streams": {
-		"camera_url": "http://195.67.26.73/mjpg/video.mjpg",
+		"camera_url": "http://roborio-5431-frc:1181/stream.mjpg",
 		"aspect_ratio": false,
 		"connected_image": "connected",
 		"disconnected_image": "disconnected",
-		"robot_ip": "localhost",
+		"robot_ip": "roborio-5431-frc.local",
 		"table_name": "copernicus"
 	},
 	
@@ -28,7 +28,7 @@
 	
 	"window": {
 		"width": 1920,
-		"height": 750,
+		"height": 1080,
 		"x_location": 0,
 		"y_location": 0,
 		"icon_name": "logo",
